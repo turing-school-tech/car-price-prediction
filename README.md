@@ -10,7 +10,8 @@ This project is developed using Python 3.8.12
 pip install -r requirements.txt
 ```
 
-Copy config.json.template and fill the required information
+Copy config.json.template and fill the required information  
+For logging result to airtable, consider using function get_summary_result in helpers/evaluation (a small example in sample.ipynb could be helpful)
 
 ## Features
 - [x] Save training result to Airtable
